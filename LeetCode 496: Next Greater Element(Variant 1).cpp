@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 void nextGreatest(int *arr,int n){
     stack<int> nge;
     stack<int>ans;
@@ -16,7 +19,6 @@ void nextGreatest(int *arr,int n){
     }
     return;
 }
-
 
 int main(){
 	int n;
