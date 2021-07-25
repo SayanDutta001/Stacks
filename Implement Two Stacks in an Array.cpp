@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Stack{
+class twoStacks{
 private:
 	int *arr;
 	int top1;
@@ -10,7 +10,7 @@ private:
 	int size2;
 	int cap;
 public:
-	Stack(int n){
+	twoStacks(int n){
 	arr = new int[n];
 	top1 = -1;
 	top2 = n;
@@ -98,7 +98,7 @@ public:
 int main(){
 	int n;
 	cin>>n;
-	Stack myStack = Stack(n);
+	twoStacks myStack = twoStacks(n);
 
 	myStack.pop1();
 	myStack.pop2();
