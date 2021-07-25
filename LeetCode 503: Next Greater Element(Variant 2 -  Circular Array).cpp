@@ -1,3 +1,11 @@
+// Given a circular integer array nums (i.e., the next element of nums[nums.length - 1] is nums[0]), 
+// return the next greater number for every element in nums.
+
+// I/P : nums = [1,2,1]
+// O/P : [2,-1,2]
+// I/P : nums = [1,2,3,4,3]
+// O/P : [2,3,4,-1,4]
+
 #include<bits/stdc++.h>
 using namespace std;
 
